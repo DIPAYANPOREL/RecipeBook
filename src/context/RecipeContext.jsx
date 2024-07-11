@@ -1,12 +1,11 @@
-import { createContext, useState } from "react"
-
+import { createContext } from "react"
+import useLocalStorage from "../hooks/useLocalStorage";
 export const RecipeContext = createContext();
 
 
 const RecipeProvider = ({children}) => {
 
-
-    const [recipes, setRecipes] = useState(useLocalStorage("recipes", []));
+    const [recipes, setRecipes] = useLocalStorage("recipes", []);
 
     const value = { recipes, setRecipes }
 
