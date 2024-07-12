@@ -10,7 +10,6 @@ body {
 
 .container {
   max-width: 40rem;
-  /* background: red; */
   margin: 7rem auto 0;
 }
 
@@ -59,7 +58,7 @@ header nav > .active {
 }
 
 .form .btnForm {
-  background: black;
+  background: rgb(8, 8, 8);
   border: 1px solid black;
   color: white;
   width: 100%;
@@ -88,13 +87,13 @@ header nav > .active {
   text-align: center;
   grid-column: 1 / span 3;
   margin-top: 2rem;
-  color: #333;
+  color: #3b3b3b;
 }
 
 /* Card */
 
 .recipe {
-  background: #dd5050;
+  background: #f2854e;
   padding: 1rem;
   border-radius: 5px;
 }
